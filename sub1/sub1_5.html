@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산림환경연구소-찾아오시는 길</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content5.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=21cbf032370f38fac87d305ac5fd5c03"></script>
+    <!-- 앱키 JavaScript 키 : 21cbf032370f38fac87d305ac5fd5c03-->
+    <script>
+        var container = document.getElementById('map');
+        var options = {
+         center: new daum.maps.LatLng(36.625991758522254, 127.66700247748507),
+         level: 4
+        };
+      
+        var map = new daum.maps.Map(container, options);
+    </script>
+    
+
+</head>
+<body>
+    
+    <div class="wrap">
+        <? include "../common/sub_header.html"?>
+
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼 사진">
+            <h3>산림환경연구소</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">연구소연혁</a></li>
+                <li><a href="./sub1_3.html">추진사업 및 전략</a></li>
+                <li><a href="./sub1_4.html">조직 및 기구</a></li>
+                <li class="current"><a href="./sub1_5.html">찾아오시는 길</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <img src="./images/content1/home_ico.png" alt="Home"> &gt; 산림환경연구소 &gt; <strong>찾아오시는 길</strong>
+                </div>
+                <h2>찾아오시는 길</h2>
+            </div>
+
+
+
+            <div class="content_area"><!--이미지 sub1>images>content1 폴더에 넣기-->
+                <p class="txt">
+                    <span>산림환경연구소</span>
+                    <span>충북 청주시 상당구 미원면 수목원길 51(미원리 20)</span>
+                    <span><strong>T </strong>043-220-6101</span>
+                    <span><strong>F </strong>043-220-6119</span>
+                </p>
+                <div id="map" style="width:1000px;height:600px;"></div>
+            </div>
+
+            
+        </article>
+
+
+
+
+
+
+        <? include "../common/sub_footer.html"?>
+  
+    </div>
+
+</body>
+</html>

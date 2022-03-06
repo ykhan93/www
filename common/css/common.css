@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family:'NanumSquare','Nanum Gothic', "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px; color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal;}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+/*skipNav*/
+ #skipNav{position:absolute; display:block; width:100%;overflow:hidden; z-index: 999;}
+ #skipNav a{display:block; height:1px; margin-bottom:-1px;
+     overflow:hidden; text-align:center; text-decoration:none; color:#fff; font-size:16px;}
+ #skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+    display:block;height:auto;padding:5px 0; background:orange;}
+
+
+
+  /*font-family: 'Nanum Myeongjo','NanumSquare','Nanum Gothic', sans-serif;    font-weight:700;s
+font-family: 'Roboto', sans-serif;*/
+
+
+.wrap{width: 100%; overflow: hidden;}
+
+
+ /* header 공통영역 */ 
+#headerArea{width: 100%; position:  fixed; left: 0; top: 0; background: #fff;  z-index: 100;
+            border-bottom: 1px solid #ccc; font-family: 'NanumSquare','Nanum Gothic', sans-serif;}
+#headerArea .headerArea_inner{width: 1200px; height: 118px; margin: 0 auto;  padding-top:10px;}
+#headerArea .top_menu {font-size: 0.889em; overflow: hidden; float: right;}
+#headerArea .top_menu ul {right: 30px; top: 32px; overflow: hidden;}
+#headerArea .sitemap {}
+#headerArea .top_menu li{float:left; margin: 10px;border-right: 1px solid #333;padding-right: 18px;}
+#headerArea .top_menu li:last-child{border-right:none; padding-right: 18px;}
+
+#headerArea .logo a{display: block; float: left; width:209px; height:44px; margin-top:25px ; margin-left:25px; 
+                      background: url(../images/logo.png) 0 0 no-repeat; text-indent: -999px; overflow: hidden;  }
+
+
+    /*네비게이션 영역
+#headerArea #gnb {font-weight: bold; font-size: 20px; float: right;}
+#headerArea #gnb ul {overflow: hidden; padding-left: 30px ;margin-top: 30px;}
+#headerArea #gnb li {float: left; margin-right: 35px; margin-bottom: 30px;}
+#headerArea #gnb li:last-child{margin-right: 0;}
+*/
+
+#gnb{clear:both; width:954px; font-weight: bold; font-size: 20px; float: right;} 
+	
+#gnb ul.dropdownmenu{float:right;}
+#gnb ul.dropdownmenu li.menu{position:relative; float:left; width:16.66%; height: 50px; 
+                      margin-top:-46px;}
+#gnb ul.dropdownmenu li h3{}
+  #gnb ul.dropdownmenu li a.depth1{display:block;width:156px;padding: 15px 0; 
+        text-align: center; transition: all .5s;}
+
+
+  /* 2depth */
+#gnb ul.dropdownmenu li ul{width:100%; height:217px; position:absolute; top:50px;left:0;
+    padding:15px 0 ; line-height:40px; display:none; }
+
+#gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:bold;  font-size: 18px;}
+#gnb ul.dropdownmenu li ul li a{display:block;  color:#666; transition: all .3s; }
+#gnb ul.dropdownmenu li ul li a:hover{background:  #666;  color:#fff; }
+
+
+
+
+
+/* footer common area */
+#footerArea{font-family: 'NanumSquare','Nanum Gothic', sans-serif; color: #fff;  width:100%;  margin-top:100px; background: #2e2e2e; }
+#footerArea .footer_inner{width:100%; background:#141414; height: 40px; padding: 10px 0;}
+#footerArea .footer_inner .footer_top{width:1200px; margin:0 auto; clear:both; }
+#footerArea .footer_inner li{color:#fff; float: left; margin:10px 10px; padding-right:20px; border-right:1px solid #fff;
+                            font-size: 14px; }
+#footerArea .footer_inner li:first-child{margin-left:0;}
+#footerArea .footer_inner li:last-child{border:none;}
+#footerArea .footer_inner li>a{color:#fff;}
+
+
+#footerArea .footer_family{position:relative; width: 209px; height: 34px; float:right;  margin-top:3px; }
+#footerArea .footer_family dt{width: 209px; height: 34px; color:#fff; line-height:34px; background:url(../images/family_arrow.png) 90% 50% no-repeat #333;
+                           border: 1px solid #fff; box-sizing:border-box; padding-left:20px; cursor:pointer; transition:all .5s;
+                           margin-right: -1px;}
+#footerArea .footer_family dd{margin-top:-9999px;}
+#footerArea .footer_family:hover dt{background-color:#fff; background-image:url(../images/family_arrow_b.png); color:#228b22; font-weight: bold;
+                                    border: 1px solid #228b22;}
+#footerArea .footer_family:hover dd { border: 1px solid #228b22 ;width: 207px; height: 102px; margin-top:-141px;  background:#fff;}
+#footerArea .footer_family:hover dd a{position:absolute;  height: 34px; line-height: 34px; padding-left: 20px; display: block;}
+#footerArea .footer_family:hover dd a:first-child{margin-top: 34px;}
+#footerArea .footer_family:hover dd a:nth-child(2){margin-top: 68px;}
+  
+
+
+#footerArea .address_box{width:1200px; margin:0 auto; clear:both; font-size: 12px; float: none;  padding-top: 15px; height: 90px;}
+#footerArea .address_box address{line-height: 18px;}
+#footerArea .address_box  p{color:#999; line-height: 25px;}
+#footerArea .address_box .footer_logo a{float: right; margin-top:-60px;  }
+
+#footerArea .footer_Address{ background-color: #fff; color:#333; width:100%; margin:0 auto; height:100px; padding-top: 20px;}
+
+/*top move*/
+.topMove {display: block; position: fixed; left:50%; margin-left: 650px; bottom:215px;}
+.topMove i{  font-size: 40px;  color: #228b22;}
+
+
+
+
+
+

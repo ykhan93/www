@@ -1,0 +1,218 @@
+<? 
+	session_start();
+    
+      @extract($_POST);
+      @extract($_GET);
+      @extract($_SESSION);
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산림환경연구소</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+    
+ 
+</head>
+<body>
+    
+
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+
+    
+    <div class="wrap">
+        <? include "./common/main_header.html"?>
+
+
+        <div class="visual">
+            <div class="visual_main">
+                <div class="visual_gallery">
+                         <ul>
+                              <li class="link1"><a href="#"><img src="./images/main01.jpg" alt='메인사진1' ></a></li>
+                              <li class="link2"><a href="#"><img src="./images/main02.jpg" alt='메인사진2' ></a></li>
+                              <li class="link3"><a href="#"><img src="./images/main03.jpg" alt='메인사진3' ></a></li>
+                        </ul>
+                        <p class="sub_title">FOREST&SCIENCE With Human
+                            <br>
+                            <span class="title">자연과 함께하는 산림체험공간</span> 
+                        </p>
+                 </div>
+               
+                 <div class="dock">
+                      <span class="mbutton  btn1" ></span>
+                      <span class="mbutton  btn2" ></span>
+                      <span class="mbutton  btn3" ></span>
+                      <span class="ps" ></span>
+                </div>
+             </div> 
+                    
+        </div>
+
+       
+        
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+                <div class="quick">
+                    <div class="quick_inner">
+                        <a href="#">주말산림<br><span>체험교실 신청</span></a>
+                        <a href="#">자연학습<br><span>체험교실 신청</span></a>
+                        <a href="#">목재<br><span>체험교실 신청</span></a>
+                        <a href="#">유아숲<br><span>체험교실 신청</span></a>
+                        <a href="#">식물세밀화<br><span>체험교실 신청</span></a>
+                    </div>
+                </div>
+                <div class="event">
+                    <span>EVENT</span>
+                    <h3>행사안내</h3>
+                    <div class="arrow">
+                        <a href="#"><span class="arrow_left"></span></a>
+                        <a href="#"><span class="arrow_right"></span></a>
+                    </div>
+                    <div class="event_inner">
+                        <ul>
+                            <li><a href="#"><img src="./images/event_banner_01.jpg" alt="나무병원 안내"></a></li>
+                            <li><a href="#"><img src="./images/event_banner_02.jpg" alt="그래피티 니팅 교육생 모집"></a></li>
+                            <li><a href="#"><img src="./images/event_banner_03.jpg" alt="덕동생태숲 목재체험교실 참여자 모집"></a></li>
+                        </ul>
+                    </div>                 
+                </div>
+            
+                <div class="media">
+                    <div class="media_box">
+                         <span>MEDIA</span>
+                    </div>
+                    <h3>정보마당</h3>
+                    <div class="media_inner">
+                        <ul class="media_font">
+                            <li>- 국가식물표준목록</li>
+                            <li>- 한국수목도감</li>
+                            <li>- 충북미소 간행물</li>
+                        </ul>
+                        <ul class="media_img">
+                            <li><a href="#"><img src="./images/media_1.jpg" alt="국가식물표준목록"></a></li>
+                            <li><a href="#"><img src="./images/media_2.jpg" alt="한국수목도감"></a></li>
+                            <li><a href="#"><img src="./images/media_3.jpg" alt="충북미소 간행물"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="notice">
+                    <span class="notice_title">NOTICE</span>
+                    <h3>공지사항</h3>
+                    <div class="notice_inner">
+                        <dl>
+                            <dt><span>공지</span><a href="#">수목 겨울나기 그래피티 니팅 2차 교육생 모집 </a></dt>
+                            <dd><a href="#">수목 겨울나기 그래피티 니팅 2차 교육생을 모집합니다. 많은 참가 바랍니다. </a>
+                                <span>2021-11-11</span>
+                            </dd>
+                        </dl>    
+                        <dl>
+                            <dt><span>공지</span><a href="#">2020년도 공립나무병원 운영실</a></dt>
+                            <dd><a href="#">2020년 공립나무병원 운영 결과</a>
+                                <span>2021-11-11</span>
+                            </dd>
+                        </dl>    
+                        <dl>
+                            <dt><span>공지</span><a href="#">미동산 등산교실 교육 실시</a></dt>
+                            <dd><a href="#">[미동산 등산교실] 교육을 실시합니다.</a>
+                                <span>2021-11-11</span>
+                            </dd>
+                        </dl>    
+                        <dl>
+                            <dt><span>공지</span><a href="#">미동산수목원 수목 유전자원 보유현황 (2021년 10월 기준)</a></dt>
+                            <dd><a href="#">미동산수목원 수목 유전자원 보유현황 (2021.10월)</a>
+                                <span>2021-11-11</span>
+                            </dd>
+                        </dl>    
+                        <dl>
+                            <dt><span>공지</span><a href="#">수목원 겨울나기 그래피티 니팅 교육생 모집</a></dt>
+                            <dd><a href="#">수목 겨울나기 그래피티 니팅 교육생을 모집합니다. 많은 참가 바랍니다. </a>
+                                <span>2021-11-11</span>
+                            </dd>
+                        </dl>
+                        <a href="#"><img src="./images/plus_bthn.png" alt="더보기"></a> 
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <span>GALLERY</span>
+                    <h3>산림표본</h3>
+                    <div class="gallery_box">
+                        <div class="gallery_inner">
+                            <ul>
+                                <li><a href="#"><img src="./images/gallery_01.jpg" alt="산림표본1"></a></li>
+                                <li><a href="#"><img src="./images/gallery_02.jpg" alt="산림표본2"></a></li>
+                                <li><a href="#"><img src="./images/gallery_03.jpg" alt="산림표본3"></a></li>
+                                <li><a href="#"><img src="./images/gallery_04.jpg" alt="산림표본4"></a></li>
+                                <li><a href="#"><img src="./images/gallery_05.jpg" alt="산림표본5"></a></li>
+                                <li><a href="#"><img src="./images/gallery_06.jpg" alt="산림표본6"></a></li>
+                                <li><a href="#"><img src="./images/gallery_07.jpg" alt="산림표본7"></a></li>
+                                <li><a href="#"><img src="./images/gallery_08.jpg" alt="산림표본8"></a></li>
+                            </ul>
+                            <div class="gallery_plus">
+                            <a href="#"><img src="./images/plus_bthn.png" alt="더보기"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recruit">
+                    <div class="recruit_box">
+                        <h3 class="hidden">채용안내</h3>
+                        <div class="recruit_inner">
+                            <h4>RECRUIT</h4>
+                            <dl>
+                                <dt>산림환경연구소와 함께할 새로운 인재를 찾습니다.</dt>
+                                <dd><a href="#">VIEW</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+        </article>
+        <? include "./common/main_footer.html"?>
+    </div>
+
+
+    
+
+
+
+    <!--공지사항 팝업-->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:100px;top:180px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#666;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+      </div>
+
+
+    <!--<script src=""> </script> 필요한 자바스크립트 js 파일 만들어서 연결 -->
+
+</body>
+</html>

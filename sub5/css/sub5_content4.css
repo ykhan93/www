@@ -1,0 +1,37 @@
+.content_area{width:1200px; margin:0 auto; overflow: hidden;}
+.content_area .summary {text-align: center;}
+.content_area .summary p{ font-size: 30px; line-height: 40px; margin-bottom:10px;}
+.content_area .summary span{font-size: 24px; line-height: 32px;}
+.content_area .organ{width:1000px; height: 424px; background: url(../images/content4/chart.png) 0 0 no-repeat;
+                    margin:170px 100px; text-indent: -9999px;}
+.search_box {width:800px; height:185px; background: #228b22; margin:0 auto; overflow: hidden;}
+.search_box .search{font-size: 24px; color: #fff; font-weight: bold; margin:40px; float: left;}
+.search_box p{float: left; color:#fff; font-size: 20px; font-weight: 300; margin:39px 30px 0 0; }
+.search_box #search_1{float: left; margin:45px 10px 0 170px; }
+.search_box #search_2{float: left; margin:45px 10px 0 0; }
+.search_box #search_value{width:730px; height:36px; margin-left:30px;}
+.search_box button{position: absolute; margin-left:-48px; margin-top:5px; background: rgba(0,0,0,0); border: none;
+                  cursor: pointer; }
+
+
+/*산림환경연구소 테이블*/ 
+.content_area .call_info{width:1200px; } 
+.content_area .call_info h3{font-size: 36px; margin-left:30px; margin-top:200px; margin-bottom:70px;}
+.content_area .call_info h3::before{content: '';  position:absolute; display: block; width:6px; height:40px; box-sizing: border-box; background: #228b22;
+                            margin-left:-30px;}
+.content_area .call_info .tables{ width:1000px;  margin:0 auto;}
+.content_area .call_info .tables thead{text-align: center; font-size: 18px; font-weight: 400; line-height: 40px;}
+.content_area .call_info .tables thead th{border:1px solid #999; background: #333; color:#fff;}
+.content_area .call_info .tables thead th:first-child{border-left:none;}
+.content_area .call_info .tables thead th:last-child{border-right:none;}
+.content_area .call_info .tables tbody{text-align: center; font-size: 16px; line-height: 20px; }
+.content_area .call_info .tables tbody td{border:1px solid #999;padding:10px 10px;}
+.content_area .call_info .tables tbody td:first-child{border-left:none;}
+.content_area .call_info .tables tbody td:last-child{border-right:none;}
+.content_area .call_info .tables tbody tr:first-child td{border-top:none;}
+
+.content_area .call_info{width:1200px; } 
+.content_area .call_info h4{font-size: 36px; margin-left:30px; margin-top:200px; margin-bottom:70px;}
+.content_area .call_info h4::before{content: '';  position:absolute; display: block; width:6px; height:40px; box-sizing: border-box; background: #228b22;
+                            margin-left:-30px;}
+

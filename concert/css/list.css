@@ -1,0 +1,43 @@
+
+
+.content_area{margin: 150px 0;}
+#list_search{margin-bottom: 30px; overflow: hidden; padding-left: 300px;  }
+#list_search3,#list_search5,#list_search4{margin-left: 10px;float:right; }
+
+
+
+select{font-size: 16px;  padding: 10px 5px;  margin-bottom: 10px;
+        outline: none; box-shadow: none;}
+input{background: #0065b3; font-size: 16px; color:#fff; padding: 10px 40px; border:none;  margin-bottom: 20px;
+        outline: none; box-shadow: none;}
+#list_search4 input{background: #fff; padding:10px ; border:1px solid #0065b3; color:#333}        
+.scale_count{overflow: hidden;}
+#list_search1{float:right; font-size: 18px; margin-right: 10px; padding: 7px 4px;}
+
+.list_item{width: 22%; height: 500px; float: left; padding: 2px; margin-right:4% ; margin-bottom: 50px; border:1px solid #ccc; 
+        box-sizing: border-box;  position: relative;}
+.list_item:nth-of-type(4n){margin-right: 0;}
+.list_item a img{width: 100%; height: 200px; border:1px solid #ccc; box-sizing: border-box;  }
+.list_inner{float: left; overflow: hidden;  width: 96%; height: 96%; padding: 2%; background: #fff; }
+.list_inner a{display: block; height: 100%;}
+.list_item span{display: block; position: absolute; background: #0065b3; transition: all .5s;}
+.list_item span:nth-child(1){top:0; height: 4px; width: 0; left:0}
+.list_item span:nth-child(2){top:0; right: 0; width: 4px; height: 0;}
+.list_item span:nth-child(3){bottom:0; right:0; height: 4px; width: 0;}
+.list_item span:nth-child(4){bottom:0; left:0; width: 4px; height: 0;}
+.list_item:hover span:nth-child(1){width: 100%; }
+.list_item:hover span:nth-child(2){height: 100%; transition-delay: .5s;}
+.list_item:hover span:nth-child(3){width: 100%; transition-delay: 1s;}
+.list_item:hover span:nth-child(4){height: 100%; transition-delay: 1.5s;}
+.list_inner dl{float:left; }
+.list_inner dl dt{font-size:20px; margin-bottom: 12px; font-weight: bold;line-height: 1.5em; margin-top: 10px; text-align: center;}
+.list_inner dl dd:nth-of-type(1){ text-align: left; margin: 10px 10px 25px 10px; }
+.list_inner dl dd:nth-of-type(1) p{float:right;}
+.list_inner dl dd:nth-of-type(2){text-align: justify; padding: 0 10px;  line-height: 1.5em; 
+        white-space: normal; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp:6; overflow: hidden;}
+#page_button{text-align: center; padding-top:100px; font-size: 18px; clear: both;}
+#button{font-size: 16px; clear:both}
+#button a:nth-of-type(1){float:left; margin-left: 20px; padding: 10px; background: #0065b3; color:#fff; padding: 10px 40px;}
+#button a:nth-of-type(2){float:right; margin-right: 20px; padding: 10px; background: #0065b3; color:#fff; padding: 10px 40px;}
+#page_num{margin-top:40px}
+

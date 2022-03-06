@@ -1,0 +1,37 @@
+input{outline: none; background-color: none; padding: none;}
+.content_area{width: 1000px; margin: 150px auto; overflow: hidden;}
+#list_contnet{overflow: hidden;}
+
+#write_row1,#write_row2,#write_row3{overflow: hidden; font-size: 20px; margin-bottom: 20px; position: relative; border-bottom:1px solid #ccc; padding-bottom:15px; }
+#write_row1::before,#write_row2::before,#write_row3::before{content: ''; display: block; width: 15px; height: 15px; border-radius: 2px; background: #0065b3;
+                                                             position: absolute; top:3px; left:5px}
+#write_row3::before{top:13px}
+#write_row1 ul,#write_row2 ul,#write_row3{overflow: hidden;}
+#write_row1 .col1,#write_row1 .col2{float:left;}
+#write_row1 .col3{float:right;}
+#write_row1 ul li,#write_row2 ul li{float:left; text-align: center; padding:10px 0} 
+#write_row2,#write_row3{border-bottom:0;}
+#write_row3 .col1{padding: 10px 0; margin-bottom: 5px; margin-bottom: 7px;}
+#write_row1 ul li:nth-of-type(3){float:right; margin-right: 10px;}
+#write_row1 ul li{float:left; text-align: center; padding:10px 0}
+#write_row2 ul li:nth-of-type(2){padding: 0; padding-top:4px}
+.col1{ margin-left: 30px; font-size:20px;}
+#write_row2 .col2 input{height: 30px; font-size: 20px; width: 990px; border:0; border-bottom:1px solid #ccc; padding-left:25px }
+#write_row3 textarea{border:1px solid #ccc; font-size: 18px; text-align: justify;}
+textarea:focus{outline: none;}
+#write_row4,#write_row5,#write_row6{overflow: hidden; margin-bottom: 30px; position: relative; padding-bottom: 10px;}
+#write_row4::before,#write_row5::before,#write_row6::before{content: ''; display: block; border-bottom:1px solid #ccc; position: absolute; bottom:0; width: 100%;}
+#write_row4 .col1,#write_row4 .col2,#write_row5 .col1,#write_row5 .col2,#write_row6 .col1,#write_row6 .col2{float:left;}
+#write_row4 .col1,#write_row5 .col1,#write_row6 .col1{margin-left: 0;}
+
+.delete_ok{position: absolute; left: 600px}
+#write_button{margin-left: 173px;}
+#write_button ul{overflow: hidden; }
+#write_button ul li{float: left}
+#write_button ul li input{display: inline-block; background: #3399CC; color: #fff; padding: 14.5px 5px; font-size: 16px; border: none; 
+    width: 280px; text-align: center}
+#write_button ul li input:hover{background: #0065b3; color:#fff;}
+#write_button a{display: inline-block; background: #3399CC; color: #fff; padding: 15.5px 5px; font-size: 16px; border: none; 
+    width: 280px; margin-left: 10px; text-align: center}
+#write_button a:hover{background: #0065b3; color: #fff;  padding: 15.5px 5px; font-size: 16px; border: none; 
+    width: 280px; }

@@ -1,0 +1,165 @@
+
+.content_box{  width:2000px; margin-left:-400px; height:56px;}
+.content_box ul{width:1200px; margin-left:400px;float: left; padding-left:170px; }
+.content_box li{float: left; width:216px; line-height: 24px;  background: #aaa; text-align: center; 
+                font-size: 24px;  padding:16px 0;}
+.content_box li a{color:#fff; line-height: 24px;  
+                     width:215px; display: block;}
+.content_box li:last-child a{border-right:none;}
+.content_box li:hover{background: #228b22;  font-weight: bold; }
+.content_box .current_2{background: #228b22;  font-weight: bold;  }
+.content_box .current_2 a{border-right:none;}
+
+
+/*산업환경연구소 연혁*/
+#history01{margin-top:50px; padding:150px 0; border-bottom: 1px dotted #999;}
+#history01 h3{ text-align: center; height:150px; font-size: 40px; background: url(../images/content2/box_line.png) center no-repeat;}
+#history01 .history01_main {background: url(../images/content2/history_line1.png)  center 60px no-repeat; height:2080px; padding-top:40px;}
+
+
+#history01 .history01_1 .title_2021{height:70px; text-align: center; background: url(../images/content2/history_left.png) 582px 50px no-repeat ; 
+                                    font-size: 40px; margin-left:-300px; margin-top: 100px; }
+#history01 .history01_2 .title_2020{height:70px; text-align: center; background: url(../images/content2/history_right.png) 290px 50px no-repeat ; 
+                                   font-size: 40px; margin-left:300px; margin-top: 100px; }
+#history01 .history01_1 dl{height:675; margin:60px; font-size: 22px;}
+#history01 .history01_1 dt.title_21r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history01 .history01_1 dt.title_21r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history01 .history01_1 dd.title_21r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history01 .history01_1 dt.title_21l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history01 .history01_1 dt.title_21l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                         border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history01 .history01_1 dd.title_21l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+   
+
+#history01 .history01_2 dl{margin:60px; font-size: 22px;}
+#history01 .history01_2 dt.title_20r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history01 .history01_2 dt.title_20r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history01 .history01_2 dd.title_20r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history01 .history01_2 dt.title_20l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history01 .history01_2 dt.title_20l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history01 .history01_2 dd.title_20l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+
+
+/*도유림사업소 연혁*/
+#history02{margin-top:50px; padding:150px 0; border-bottom: 1px dotted #999;}
+#history02 h3{ text-align: center; height:150px; font-size: 40px; background: url(../images/content2/box_line.png) center no-repeat;}
+#history02 .history02_main {background: url(../images/content2/history_line2.png)  center 60px no-repeat; height:1550px; padding-top:40px;}
+
+
+#history02 .history02_1 .title_1990{height:70px; text-align: center; background: url(../images/content2/history_left.png) 582px 50px no-repeat ; 
+                                    font-size: 40px; margin-left:-300px; margin-top: 100px; }
+#history02 .history02_2 .title_1950{height:70px; text-align: center; background: url(../images/content2/history_right.png) 290px 50px no-repeat ; 
+                                   font-size: 40px; margin-left:300px; margin-top: 100px; }
+#history02 .history02_1 dl{margin:60px; font-size: 22px;}
+#history02 .history02_1 dt.title_90r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history02 .history02_1 dt.title_90r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history02 .history02_1 dd.title_90r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history02 .history02_1 dt.title_90l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history02 .history02_1 dt.title_90l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                         border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history02 .history02_1 dd.title_90l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+   
+
+#history02 .history02_2 dl{height:675; margin:60px; font-size: 22px;}
+#history02 .history02_2 dt.title_50r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history02 .history02_2 dt.title_50r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history02 .history02_2 dd.title_50r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history02 .history02_2 dt.title_50l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history02 .history02_2 dt.title_50l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history02 .history02_2 dd.title_50l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+
+
+/*치산 연혁*/
+#history03{margin-top:50px; padding:150px 0; border-bottom: 1px dotted #999;}
+#history03 h3{ text-align: center; height:150px; font-size: 40px; background: url(../images/content2/box_line.png) center no-repeat;}
+#history03 .history03_main {background: url(../images/content2/history_line3.png)  center 60px no-repeat; height:990px; padding-top:40px;}
+
+
+#history03 .history03_1 .title_1990{height:70px; text-align: center; background: url(../images/content2/history_left.png) 582px 50px no-repeat ; 
+                                    font-size: 40px; margin-left:-300px; margin-top: 100px; }
+#history03 .history03_2 .title_1950{height:70px; text-align: center; background: url(../images/content2/history_right.png) 290px 50px no-repeat ; 
+                                   font-size: 40px; margin-left:300px; margin-top: 100px; }
+#history03 .history03_1 dl{margin:60px; font-size: 22px;}
+#history03 .history03_1 dt.title_90r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history03 .history03_1 dt.title_90r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history03 .history03_1 dd.title_90r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history03 .history03_1 dt.title_90l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history03 .history03_1 dt.title_90l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                         border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history03 .history03_1 dd.title_90l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+   
+
+#history03 .history03_2 dl{height:675; margin:60px; font-size: 22px;}
+#history03 .history03_2 dt.title_50r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history03 .history03_2 dt.title_50r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history03 .history03_2 dd.title_50r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history03 .history03_2 dt.title_50l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history03 .history03_2 dt.title_50l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history03 .history03_2 dd.title_50l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+
+
+/*임업 사업소 연혁*/
+#history04{margin-top:50px; padding:150px 0; border-bottom: 1px dotted #999;}
+#history04 h3{ text-align: center; height:150px; font-size: 40px; background: url(../images/content2/box_line.png) center no-repeat;}
+#history04 .history04_main {background: url(../images/content2/history_line4.png)  center 60px no-repeat; height:1250px; padding-top:40px;}
+
+
+#history04 .history04_1 .title_1980{height:70px; text-align: center; background: url(../images/content2/history_left.png) 582px 50px no-repeat ; 
+                                    font-size: 40px; margin-left:-300px; margin-top: 100px; }
+#history04 .history04_2 .title_1950{height:70px; text-align: center; background: url(../images/content2/history_right.png) 290px 50px no-repeat ; 
+                                   font-size: 40px; margin-left:300px; margin-top: 100px; }
+#history04 .history04_1 dl{margin:60px; font-size: 22px;}
+#history04 .history04_1 dt.title_80r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history04 .history04_1 dt.title_80r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history04 .history04_1 dd.title_80r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history04 .history04_1 dt.title_80l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history04 .history04_1 dt.title_80l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                         border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history04 .history04_1 dd.title_80l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+   
+
+#history04 .history04_2 dl{height:675; margin:60px; font-size: 22px;}
+#history04 .history04_2 dt.title_50r{text-align: left; width:600px;  margin-left:580px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history04 .history04_2 dt.title_50r::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:-47px; }
+#history04 .history04_2 dd.title_50r{text-align: left; width:600px;  margin-left:580px; line-height: 30px; height:85px; }
+#history04 .history04_2 dt.title_50l{text-align: right; width:600px;  margin-left: -100px;
+                        line-height: 50px; font-weight:bold; color:#228b22 ;}
+#history04 .history04_2 dt.title_50l::before{content: ''; position: absolute; width:13px; height:13px; background:#228b22 ; 
+                        border-radius:500px; box-sizing: border-box; display: block; margin-top:20px; margin-left:633px; }
+#history04 .history04_2 dd.title_50l{ margin-left: -100px;  line-height: 30px;
+                        text-align: right; width:600px; height:65px;}
+
+

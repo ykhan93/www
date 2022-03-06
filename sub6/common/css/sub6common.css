@@ -1,0 +1,23 @@
+/* sub1 공통 - 비주얼/서브네비/타이틀영역 */
+
+.visual{ width: 2000px; margin-top: 128px; position: relative; 
+        left: 50%; margin-left: -1000px; top: 0; }
+.visual h3{position: absolute; text-align: center; font-size: 40px; color: #fff;
+            top:150px; left: 0; width: 100%; font-weight: 300;}
+
+
+.sub_menu{width: 1200px; margin:0 auto; }
+.sub_menu ul{overflow: hidden; width: 720px; margin: 0 auto; border-bottom: 1px solid rgb(192, 192, 192);}
+.sub_menu li{float: left; width: 180px; line-height: 36px;}
+.sub_menu li a{display: block; font-size: 20px; padding: 15px 0; 
+                 text-align: center; }
+.sub_menu li a:hover{color: #228b22; border-bottom:5px solid #228b22;  font-weight: bold; }
+.sub_menu .current a{color: #228b22; border-bottom:5px solid #228b22;  font-weight: bold;}
+
+#content{width: 1200px; margin:0 auto;  }
+#content .title_area{position: relative; padding-top: 150px;}
+#content .line_map{position: absolute; right: 0; top: 0; margin-top: -420px; padding:10px; color:#fff; font-size: 15px;}
+#content .line_map img{width:16px; height:16px;}
+#content h2{text-align: center; font-size: 50px; margin-bottom: 150px ;}
+
+

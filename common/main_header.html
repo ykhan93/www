@@ -1,0 +1,89 @@
+
+    <header id="headerArea">
+        <div class="headerArea_inner">
+            <a href="#" class="sitemap"><img src="./images/sitemap.png" alt="사이트맵"></a>
+            <ul class="top_menu">
+                
+            <?
+             if(!$userid) //세션변수가 등록되지 않았다면
+             {
+            ?>
+                <li><a href="./login/login_form.php">로그인</a></li>
+                <li><a href="./member/member_check.html">회원가입</a></li>
+            <?
+            }
+            else   //세변변수가 등록되어 있다면
+            {
+           ?>
+                <li><?=$usernick?>님 환영합니다</li>
+                <li><a href="./login/logout.php">로그아웃</a></li>
+                <li><a href="./member/member_form_modify.php">정보수정</a></li>
+            <?
+            }
+           ?> 
+
+            </ul>
+            
+            <h1 class="logo"><a href="index.html">산림환경연구소</a></h1>
+            <nav id="gnb">
+                <h2 class="hidden">네비게이션 영역</h2>
+                <ul class="dropdownmenu">
+                    <li class="m1 menu">
+                      <h3><a class="depth1" href="./sub1/sub1_1.html">산림환경연구소</a></h3>
+                        <ul>
+                            <li><a href="./sub1/sub1_1.html">인사말</a></li>
+                            <li><a href="./sub1/sub1_2.html">연구소연혁</a></li>
+                            <li><a href="./sub1/sub1_3.html">추진사업 및 전략</a></li>
+                            <li><a href="./sub1/sub1_3.html">조직 및 기구</a></li>
+                            <li><a href="./sub1/sub1_3.html">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="m2 menu">
+                        <h3><a class="depth1" href="./sub2/sub2_1.html">미동산수목원</a></h3>
+                            <ul>
+                                <li><a href="./sub2/sub2_1.html">수목원 소개</a></li>
+                                <li><a href="./sub2/sub2_2.html">수목원 안내도</a></li>
+                                <li><a href="./sub2/sub2_3.html">체험신청</a></li>
+                            </ul>
+                    </li>
+                    <li class="m3 menu">
+                        <h3><a class="depth1" href="./sub3/sub3_1.html">산림과학박물관</a></h3>
+                            <ul>
+                                <li><a href="./sub3/sub3_1.html">박물관 소개</a></li>
+                                <li><a href="./sub3/sub3_2.html">전시실 안내</a></li>
+                                <li><a href="./sub3/sub3_3.html">활동지 안내</a></li>
+                            </ul>
+                    </li>
+                    <li class="m4 menu">
+                        <h3><a class="depth1" href="./sub4/sub4_1.html">휴양림/생태숲</a></h3>
+                            <ul>
+                                <li><a href="./sub4/sub4_1.html">조령산자연휴양림</a></li>
+                                <li><a href="./sub4/sub4_2.html">덕동생태숲</a></li>
+                                <li><a href="./sub4/sub4_3.html">전시실 안내</a></li>
+                            </ul>
+                    </li>
+                    <li class="m5 menu">
+                        <h3><a class="depth1" href="./sub5/sub5_1.html">산림정보관</a></h3>
+                            <ul>
+                                <li><a href="./sub5/sub5_1.html">산림지식관</a></li>
+                                <!-- <li><a href="./sub5/sub5_2.html">산림 연구자료</a></li> -->
+                                <li><a href="concert/list.php">산림표본</a></li>
+                                <li><a href="./sub5/sub5_4.html">지식 Q&A</a></li>
+                            </ul>
+                    </li>
+                    <li class="m6 menu">
+                        <h3><a class="depth1" href="./sub6/sub6_1.html">산림어울마당</a></h3>
+                            <ul>
+                                <li><a href="greet/list.php">공지사항</a></li>
+                                <li><a href="greet2/list.php">자유게시판</a></li>
+                                <li><a href="concert2/list.php">포토 갤러리</a></li>
+                                <!-- <li><a href="./sub6/sub6_4.html">체험 갤러리</a></li> -->
+                            </ul>
+                    </li>
+                </ul>
+             </nav>
+        </div>
+    </header>
+
+
+
