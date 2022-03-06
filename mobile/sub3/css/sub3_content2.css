@@ -1,0 +1,12 @@
+
+
+#content .content01{font-family:'NanumSquare', 'Nanum Gothic', sans-serif;  position:relative; width: 100%; overflow:hidden; }
+#content .content01 p{ position:relative; width:100%; overflow:hidden; text-align: center; font-size: 1.4rem; line-height: 40px; margin-bottom:60px;
+                    }
+#content .content01 a{display: block; width:300px; height:70px; border:1px solid #228b22; border-radius: 50px; margin:auto;
+                            font-weight: bold; text-align: center; color:#228b22; line-height: 70px; font-size:1.5rem ;}
+
+#content .content01_image{ margin:150px 0; }            
+#content .content01_image ul{width:100%;  }    
+#content .content01_image dt img{width:70%; box-shadow: 5px 0 40px rgba(0, 0, 0, 0.24) ; margin-right:17px;display: block; margin:auto;}
+#content .content01_image dd{line-height: 35px; margin-bottom:30px; text-align: center;}

@@ -1,0 +1,18 @@
+/* sub1 공통 - 비주얼/서브네비/타이틀영역 */
+
+.visual{ font-size: 2rem; font-family:'NanumSquare', 'Nanum Gothic', sans-serif;  position:relative; width: 100%; overflow:hidden; 
+        margin-top: 70px;display: flex; align-items: center;}
+.visual img{position:relative; left:0; top:0; width:100%; overflow:hidden; display: block; }
+.visual h3{position: absolute; text-align: center; font-size: 2rem; color: #fff; 
+          margin:auto; width: 100%; font-weight: 300; text-shadow: 2px 2px 5px #000;}
+
+
+.sub_menu{width: 100%; margin:0 auto; }
+.sub_menu ul{overflow: hidden; width: 90%; margin: 0 auto; border-bottom: 1px solid rgb(192, 192, 192);}
+.sub_menu li{float: left; width: 33.333%; line-height: 4rem;}
+.sub_menu li a{display: block; font-size: 1.1rem; 
+                 text-align: center; }
+.sub_menu .current a{color: #228b22; border-bottom:5px solid #228b22;  font-weight: bold;}
+
+#content{width: 100%; margin:0 auto;  }
+#content h2{text-align: center; font-size: 2.5rem; margin: 4rem 0 ;} 

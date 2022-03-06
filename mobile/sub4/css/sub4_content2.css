@@ -1,0 +1,39 @@
+
+
+#content .content01{font-family:'NanumSquare', 'Nanum Gothic', sans-serif;  position:relative; width: 100%; overflow:hidden; }
+#content .content01 p{ position:relative; width:100%; overflow:hidden; text-align: center; font-size: 1.4rem; line-height: 40px; margin-bottom:140px;
+                    }
+#content .content01_image>ul{width:96%; margin:0 2%; overflow: hidden; }
+#content .content01_image>ul>li{ float: left; box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.24) ; width:49%;}
+#content .content01_image>ul>li>img{ width:100%;}
+#content .content01_image ul li:nth-child(2){margin-top:40px;}
+#content .content01_text{ width:90%; border-bottom:1px dotted #999; margin:5% 5%; padding-bottom:100px; }
+#content .content01_text>ul>li{padding-bottom:40px;}
+#content .content01_text dt{font-size: 1.8rem; color:#228b22; font-weight: bold; line-height: 3rem;}
+#content .content01_text dd{font-size: 1.2rem; line-height: 2rem;}
+#content .content01_text dd li{padding-left:20px;}
+
+#content .content01_text a{display: block; width:300px; height:70px; border:1px solid #228b22; border-radius: 50px; margin:auto;
+                            font-weight: bold; text-align: center; color:#228b22; line-height: 70px; font-size:18px ; margin-top:60px;}
+
+
+                            
+#content .content02{font-family:'NanumSquare', 'Nanum Gothic', sans-serif;  position:relative; width: 100%; overflow:hidden; 
+    border-bottom:1px dotted #999; margin-top:50px;}
+#content .content02_title{ position:relative; width:100%; overflow:hidden; font-size: 1.5rem; text-align: center; margin:0 5%; margin-bottom:70px;}
+#content .content02_title img{float: left; width:5%; margin:0 2.5%;}
+#content .content02_title h3{font-weight: normal; width:70%; float: left; font-size: 2rem; line-height: 2.2rem;}
+
+#content .box{ width:100%;  margin-bottom:100px;}
+#content .box .image li{display: none; width:100%;}
+#content .box .image li img{width:90%; margin:2% 5%;}
+#content .box .btn{overflow:hidden;width:90%;  margin:1% 5%; }
+#content .box .btn li{float: left; width:14.285%; height:60px; }
+#content .box .btn li img{display:block;  }
+
+#content .box{ width:100%;  margin-bottom:100px;}
+#content .box .image li{display: none; width:100%;}
+#content .box .image li img{width:90%; margin:2% 5%;}
+#content .box .btn{overflow:hidden;width:90%;  margin:1% 5%; }
+#content .box .btn li{float: left; width:14.285%; height:60px; }
+#content .box .btn li img{display:block;  }
