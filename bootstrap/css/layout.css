@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@font-face {
+  font-family: "TmoneyRoundWindExtraBold";
+  src: url(../TmoneyRoundWindExtraBold.woff);
+}
+@font-face {
+  font-family: "TmoneyRoundWindRegular";
+  src: url(../TmoneyRoundWindRegular.woff);
+}
+html {
+  font-size: 18px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:"TmoneyRoundWindRegular",'NanumSquare','Nanum Gothic', sans-serif; 
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+}
+
+.hidden,
+#skipNav {
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 1px;
+  left: -1000%;
+  top: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* 와이드 pc */
+
+/* 네비 */
+.navbar-default {
+  background-color: #fff;
+}
+
+.header_inner {
+  margin: 0 5%;
+}
+
+.navbar-default .navbar-brand {
+  padding: 0;
+  margin: 0;
+  margin-top:10px;
+ 
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 1.111rem;
+  color: #333;
+  margin-right: 2px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  line-height: normal;
+}
+
+.navbar-default .navbar-nav>li:last-child>a {
+  margin-right: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #f26829;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a {
+  color: #f26829;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* slice IMG */
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggle .icon-bar {
+  width: 32px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 6px;
+}
+
+.navbar-toggle {
+  padding: 0;
+  margin: 23px 0;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+  text-align: center;
+}
+
+.main_visual {
+  margin-top: 80px;
+}
+
+.carousel-inner>.item>img {
+  width: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.control {
+  position: relative;
+  top: 50%;
+  width: 15%;
+  margin-top: -25%;
+}
+
+
+/* contents */
+
+/*Brand*/
+
+#content{width:90%; margin:0 5%;}
+.title_area{position: relative; width:76%; margin:0 13%; clear: both;}
+.title_area img{
+  width:100%;
+  position: absolute;
+  z-index: -1;
+  margin-top:-80px;
+  box-shadow:0 0 25px rgba(0, 0, 0, 0.3);  ;
+}
+.title_area .title_txt{ 
+  position: relative;
+  margin-top:200px;
+  padding:0 5%;
+}
+.title_area .title_txt h3{
+  background: #f26829;
+  width: 230px;
+  line-height: 2.3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color:#fff;
+}
+.title_area .title_txt h3 strong{
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+}
+.title_area .title_txt dt{
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom:50px;
+}
+.title_area .title_txt dd{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+
+}
+
+
+/*MENU*/
+#menu{
+  position: relative;
+  margin-top:30%;
+}
+#menu h3{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  background-image: url(../imgeas/menu_bg.png)0 0 no-repeat;
+  margin-bottom:55px;
+}
+#menu h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left:50%;
+  margin-left:-35px;
+  margin-top:25px;
+  width:70px;
+  height:7px;
+  border-radius: 5px 5px 5px;
+  background-color: #f26829;
+  opacity: 0.7;
+  /* border-top: 24px solid transparent;
+  border-left: 36px solid rgba(230, 230, 230, 0.801);
+  border-bottom: 24px solid transparent; */
+}
+#menu p{
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom:100px;
+  color:#666;
+}
+#menu li:hover img{
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.25);  ;
+}
+#menu li:hover dt{
+  color: #f26829;}
+
+
+
+/*Swiper*/
+.swiper { 
+  width: 95%;
+  height: 400px;
+  margin-left:0;
+}
+.swiper-wrapper{
+  margin-top:20px;
+  height:350px;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  
+
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+ /* display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center; */
+  -webkit-justify-content: center;
+  justify-content: center;
+   /* -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; */
+}
+.swiper a{text-decoration: none;}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.swiper-slide dl{ 
+  text-align: center;
+  left:50%;
+  cursor: pointer;
+  color: #333;
+  margin-top: 20px;}
+.swiper-slide dt{
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  margin-bottom:10px;
+}
+.swiper-slide dd{border: 1px solid red;
+  float: left;
+  font-size: 0.8rem;
+  background:#f9e6c6 ;
+  border-radius: 50px; 
+  line-height: 1rem;
+  padding:5px;
+  margin-left:8px;
+  width:80px;
+}
+.swiper-slide .fir{margin-left:15%;}
+
+#menu>img{ 
+  width:100%;
+  margin:50px 0;
+}
+.more {
+  display: block;
+  width:100px; color:#333; line-height: 2rem; border:1px solid #333;
+  text-align: center;
+  text-decoration: none;
+  margin:100px auto;
+
+}
+
+
+
+
+/*commitment*/
+#commitment{
+  position: relative;
+  margin-top:10%;
+}
+#commitment h3{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  background-image: url(../imgeas/menu_bg.png)0 0 no-repeat;
+  margin-bottom:55px;
+}
+#commitment h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left:50%;
+  margin-left:-35px;
+  margin-top:25px;
+  width:70px;
+  height:7px;
+  border-radius: 5px 5px 5px;
+  background-color: #f26829;
+  opacity: 0.7;
+  /* border-top: 24px solid transparent;
+  border-left: 36px solid rgba(230, 230, 230, 0.801);
+  border-bottom: 24px solid transparent; */
+}
+
+#commitment p{
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom:100px;
+  color:#666;
+}
+#commitment li:hover img{
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.25);  ;
+}
+#commitment li:hover dt{
+  color: #f26829;}
+
+#commitment .popup .movieFst{margin:0 20%; position: relative; width:60%;}
+#commitment .popup .playbtn{
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 50%;
+  margin-top: 100px;
+  width:8%;
+
+}
+
+
+/*Event*/
+#evnet{position: relative; }
+.event_inner{position: relative;  clear: both;
+  padding:5% 0; 
+  margin-bottom:5%;}
+.event_inner .background{
+  width:100%;
+  position: absolute;
+  z-index: -1;
+}
+.event_inner .event_txt{ 
+  position: relative;
+  width:76%; margin:5% 13%;
+}
+.event_inner .event_txt h3{
+  background: #f26829;
+  width: 370px;
+  line-height: 2.3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color:#fff;
+}
+.event_inner .event_txt h3{
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+}
+.event_inner .event_txt dt{
+  font-family: 'TmoneyRoundWindExtraBold','NanumSquare','Nanum Gothic', sans-serif;
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom:30px;
+}
+.event_inner .event_txt dd{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+
+}
+
+.event_inner ul{
+  width:76%; margin:0 13%;
+}
+.event_inner ul li{
+  float: left;
+  position: relative;
+  width:30%;
+  margin:1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+
+
+.event_inner ul li img{width:100%;}
+.event_inner  .event_ad{ 
+  width:100%;
+  margin-top:15%;;
+}
+
+
+
+
+
+
+
+
+/* footer */
+#footerArea {
+  background: #653602;
+  padding: 40px 0;
+  text-align: center;
+}
+#footerArea .footer_inner ul{ 
+  width:25%; 
+  overflow: hidden;
+  margin:0 auto;
+  position: relative;
+  padding:3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  z-index: 1;
+}
+#footerArea .footer_inner ul li{
+  width:100%;
+  position: relative;
+  overflow: hidden;
+}
+#footerArea .footer_inner ul li img{
+  
+  width:100%;
+  position: relative;
+  overflow: hidden;
+}
+address {
+  color: #FBFBFB;
+  font-weight: 300;
+  margin: 0 5%;
+}
+
+.topMove {
+  display: block;
+  background: rgba(101, 54, 2, .8);
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  padding-top:10px;
+  margin-left: 650px;
+  z-index: 50;
+  border-radius: 50px 50px;
+  box-shadow: 2px 2px 30px 0 rgb(0 0 0 / 10%);
+  color:#fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.topMove:hover {
+  background: rgba(242, 104, 41, 1);
+  text-decoration: none;
+  color:#fff;
+}
+
+.topMove span {
+  color: #f26829;
+  position: relative;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+/* 일반pc */
+@media screen and (max-width:1280px) {
+
+}
+
+/* 태블릿*/
+@media screen and (max-width:1024px) {
+
+  
+}
+
+/* 소형태블릿 */
+@media screen and (max-width:768px) {
+  #footerArea .footer_inner ul{ 
+    width:30%; }
+
+ 
+ 
+}
+
+/*모바일 */
+@media screen and (max-width:640px) {
+  .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+  }
+  #footerArea .footer_inner ul{ 
+    width:35%; }
+  }
+
+/* 湲고� 誘몃뵒�댁옘由� */
+@media screen and (max-width:1199px) {
+  #menu .tab-content>.row>div img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:767px) {
+  #menu .tab-content>.row>div img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width:400px) {
+  #menu .tab-content>.row>div img {
+    width: 100%;
+  }
+}
