@@ -1,0 +1,107 @@
+/* 와이드 pc  */
+
+.videoBox{position:absolute; width: 100%; height: 100%; overflow: hidden;}
+#imgBG{
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+   transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+	
+.down{display: block; position: absolute; 
+	 left:50%;  bottom: 10%;margin-left:-30px;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:1;}
+}	
+	
+
+
+
+
+
+#content{  width: 100%; padding-top:70px; margin-bottom:100px;}  /*높이 삭제, 배경 변경*/
+
+#content h2{position:absolute; left: 50%;  transform:translate(-50%, -50%); color:#fff; 
+   font-family: "batmfa_",'NanumSquare','Nanum Gothic', sans-serif; top:50%; 
+   font-size: 5rem; text-shadow:0 0 20px rgba(0,0,0,.5); animation:pagettl 1 .7s ease-out;
+}
+@keyframes pagettl {
+   from{opacity: 0; letter-spacing:8rem; filter: blur(50px);}
+   to{opacity: 1; letter-spacing:0.045rem; filter: blur(0);}
+}
+
+/* content */
+
+h3 {font-size: 2rem;}
+
+.gallery_inner {background: rgba(0,0,0,.9); color: #fff; text-align: center; padding: 5%;}
+.gallery_inner p {font-size: 1rem; line-height: 2rem; width: 70%; margin: 0 auto; padding-top: 1.5rem;}
+
+.grid_img {background:rgba(0,0,0,.9); padding: 50px 0; margin-top: 50px;}
+
+.grid-image-item, .grid_img .grid-sizer {width: 20%;}
+
+.grid-image-item {float: left; margin-bottom: 10px; overflow: hidden;}
+.grid-image-item img {border-radius: 8px; display: block; width: 90%; margin: 10px 5%; transition: all .2s; position: relative;}
+.grid-image-item:hover img {transform: scale(1.03); overflow: hidden;}
+.grid-image-item strong {display: block; width: 90%; margin: 0 5%;
+    font-size: 20px; text-align: center;}
+.grid-image-item dt strong{color:#fff; font-size: 1rem;
+   line-height: 1.5rem; }
+.grid-image-item dd { width: 90%; margin: 0 5%; font-size: 1rem;
+   line-height: 1.5rem; color: rgb(133, 133, 133); text-align: center;}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+   .grid-image-item,
+   .grid_img .grid-sizer {
+      width: 25%;
+   }
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   .grid-image-item strong{ font-size: 0.8rem; }
+   .grid-image-item dd { font-size: 0.8rem;}
+   h3 {font-size: 1.5rem;}
+   
+   .grid-image-item,
+   .grid_img .grid-sizer {
+      width: 33.33%;
+   }
+   }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content h2{ left:50%; font-size: 4rem; 
+   }
+   
+   .grid-image-item,
+   .grid_img .grid-sizer {
+      width: 50%;
+   }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+
+
+}
+
+
+

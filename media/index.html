@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>SPIDER-MAN</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<script src="js/prefixfree.min.js"></script>
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+   <div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<div class="videoBox">
+		    <video autoplay loop muted id="videoBG"></video>
+			<img src="images/back.jpg" id="imgBG">
+			<img src="./images/biglogo.png" id="imgLOGO" alt="logo">
+			<a class="down" href="#"><img src="./images/scrolldown.png" alt="scroll down"></a>
+	</div>
+	
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="#">SPIDER-MAN : NO WAY HOME</a></h1>
+		  <a class="menuOpen" href="#"><span>메뉴</span></a>
+		  <nav id="gnb">
+			<h2 class="hidden">네비게이션영역</h2> 
+		  	 <ul>
+		  	 	<li><h3><a href="./sub1/sub1.html">STORY</a></h3></li>
+		  	 	<li><h3><a href="./sub2/sub2.html">CHARACTERS</a></h3></li>
+		  	 	<li><h3><a href="./sub3/sub3.html">MOVIE</a></h3></li>
+		  	 	<li><h3><a href="./sub4/sub4.html">GALLERY</a></h3></li>
+		  	 </ul>
+		  </nav>
+		</div>
+	</header>
+	
+	<article id="content">
+		<h2 class="hidden">본문콘텐츠영역</h2>
+			<div class="story">
+				<div class="story_inner">
+					<h3>STORY</h3>
+					<div>
+						<p>After Peter Parker's identity as Spider-Man is exposed by Mysterio at the end of Spider-Man: Far From Home,
+							Parker's life and reputation are turned upside down. To fix this, Peter decides to contact Dr. Stephen
+							Strange to help him restore his old secret identity with magic, 56 but as a result of this, something
+							goes terribly wrong in the enchantment and causes a fracture in the multiverse, causing five supervillains
+							from other alternate realities (who have previously fought a Spider-Man in their respective dimensions) 
+							to enter their universe. 7
+						</p>
+						<a href="#" class="more">more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="characters">
+				<div class="characters_inner">
+					<h3>CHARACTERS</h3>
+					<ul>
+						<li><a href="#">
+							<img class="series1" src="./images/characters_1_mobile.jpg" alt="PETER PAKER">
+							<dl>
+								<dt>PETER PAKER</dt>
+								<dd class="name">Tom Holland</dd>
+								<dd class="hidden">As one of the most promising young actors, Holland was featured in Screen 
+									International's "UK Stars of Tomorrow - 2012" and in Variety's "Youth Impact Report 2012". 
+									Holland has been signed up by William Morris Endeavor (WME) global talent agency and 
+									is represented by Curtis Brown literary and talent agency.
+								</dd>
+							</dl>
+						</a></li>
+						<li class="sub4"><a href="#">
+							<img class="series2" src="./images/characters_2_mobile.jpg" alt="MJ">
+							<dl>
+								<dt>MJ</dt>
+								<dd>Zendaya</dd>
+							</dl>
+						</a></li>
+						<li class="sub4"><a href="#">
+							<img class="series3" src="./images/characters_3_mobile.jpg" alt="Dr. STRANGE">
+							<dl>
+								<dt>Dr. STRANGE</dt>
+								<dd>Benedict Cumberbatch</dd>
+							</dl>
+						</a></li>
+						<li class="sub4"><a href="#">
+							<img class="series4" src="./images/characters_4_mobile.jpg" alt="PETER PAKER">
+							<dl>
+								<dt>PETER PAKER</dt>
+								<dd>Andrew Garfield</dd>
+							</dl>
+						</a></li>
+						<li class="sub4"><a href="#">
+							<img class="series5" src="./images/characters_5_mobile.jpg" alt="PETER PAKER">
+							<dl>
+								<dt>PETER PAKER</dt>
+								<dd>Tobey Maguirea</dd>
+							</dl>
+						</a></li>
+					</ul>
+					<a href="#" class="more">more</a>
+				</div>
+			</div>
+		
+			<div class="movie">
+				<div class="movie_inner">
+					<h3>MOVIE</h3>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="./images/movie_1.jpg" alt="movie1">
+								<dl>
+									<dt>Spider-Man: No Way Home</dt>
+									<dd>Spider-Man: No Way Home</dd>
+								</dl>
+							</a>
+						</li>
+						<li class="hidden_add2" >
+							<a href="#">
+								<img src="./images/movie_2.jpg" alt="movie2">
+								<dl>
+									<dt>Official Trailer</dt>
+									<dd>Official Trailer</dd>
+								</dl>
+							</a>
+						</li>
+						<li class="hidden_add" >
+							<a href="#">
+								<img src="./images/movie_3.jpg" alt="movie3">
+								<dl>
+									<dt> Answer
+										Fan Questions</dt>
+									<dd>'Spider-Man: No Way Home' co-stars </dd>
+								</dl>
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="more">more</a>
+				</div>
+			</div>
+
+			<div class="gallery">
+				<div class="slide_gallery swiper mySwiper">
+					<h3>GALLERY</h3>
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_1.jpg" alt="gallery1"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_2.jpg" alt="gallery2"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_3.jpg" alt="gallery3"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_4.jpg" alt="gallery4"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_4.jpg" alt="gallery5"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_3.jpg" alt="gallery6"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_2.jpg" alt="gallery7"></a></li>
+						<li class="swiper-slide"><a href="#"><img src="./images/gallery_1.jpg" alt="gallery8"></a></li>
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>
+				<a href="#" class="more">more</a>
+			</div>
+			
+
+	</article>
+	
+	<footer id="footerArea">
+		<div class="footer_inner">
+			<a class="topMove" href="#">Top</a>
+			<ul>
+				<li><a href="#"><img src="./images/sns_1.png" alt="sns1"></a></li>
+				<li><a href="#"><img src="./images/sns_2.png" alt="sns2"></a></li>
+				<li><a href="#"><img src="./images/sns_3.png" alt="sns3"></a></li>
+				<li><a href="#"><img src="./images/sns_4.png" alt="sns4"></a></li>
+				<li><a href="#"><img src="./images/sns_5.png" alt="sns5"></a></li>
+				<li><a href="#"><img src="./images/sns_6.png" alt="sns6"></a></li>
+				<li><a href="#"><img src="./images/sns_7.png" alt="sns7"></a></li>
+				<li><a href="#"><img src="./images/sns_8.png" alt="sns8"></a></li>
+			</ul>
+			<p>Spider-Man : No way home</p>
+			<p>© 2022 MARVEL</p>
+		</div>
+		
+	</footer>
+</div>		
+
+
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/video.js"></script>
+<script src="js/move.js"></script>
+</body>
+</html>

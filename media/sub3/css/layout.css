@@ -1,0 +1,119 @@
+/* 와이드 pc  */
+
+.videoBox{position:absolute; width: 100%; height: 100%; overflow: hidden;}
+#imgBG{
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+   transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+	
+.down{display: block; position: absolute; 
+	 left:50%;  bottom: 10%;margin-left:-30px;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:1;}
+}	
+	
+
+
+
+
+
+#content{  width: 100%; }  /*높이 삭제, 배경 변경*/
+
+#content h2{position:absolute; left: 50%;  transform:translate(-50%, -50%); color:#fff; 
+   font-family: "batmfa_",'NanumSquare','Nanum Gothic', sans-serif; top:50%; 
+   font-size: 5rem; text-shadow:0 0 20px rgba(0,0,0,.5); animation:pagettl 1 .7s ease-out;
+}
+@keyframes pagettl {
+   from{opacity: 0; letter-spacing:8rem; filter: blur(50px);}
+   to{opacity: 1; letter-spacing:0.045rem; filter: blur(0);}
+}
+
+
+#content{ width: 100%; padding-top:70px;}  /*높이 삭제, 배경 변경*/
+.sub3_movie {clear: both; position: relative; width: 90%; margin: 0 5% 5% 5%;}
+.sub3_movie>img{width: 100%; position: relative; }
+.sub3_movie ul{ position: absolute; top:0; width:90%; padding:5%;}
+
+.sub3_movie ul li a .movieIMG{width: 100%; clear: both; position: relative; overflow: hidden;  }
+.sub3_movie ul li a .movieIMG .playbtn{position: absolute; top: 50%; left:50%; margin-left:-50px; margin-top:-50px; }
+
+.sub3_movie ul li{float: left; width:27.3%; margin:5% 1.5%; padding:2%;   background:rgba(255, 255, 255, 0.3) ;}
+.sub3_movie ul li:nth-child(2){margin-left:0;}
+.sub3_movie ul li:nth-child(4){margin-right:0;}
+.sub3_movie ul li .movieSub{width:100%;}
+.sub3_movie ul li dl{width:94%; margin:3%;  text-align: center; }
+.sub3_movie ul li dl dt{
+   font-size: 1.5rem; line-height: 2rem; color: #000; font-weight: 700; text-shadow: rgba(0,0,0,.5);
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+.sub3_movie ul li dl dd{
+   font-size: 1rem; line-height: 1.5rem; color: rgb(22, 22, 22); font-weight: 700; border-top:1px solid red; 
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+ 
+.sub3_movie ul li:first-child { width: 96%; margin:0; }
+.sub3_movie ul li:first-child a{display: block; width:100%; padding: 5% 0;  }
+.sub3_movie ul li:first-child a .movieIMG{width:90%; margin:0 5%; clear: both; position: relative; overflow: hidden;  }
+.sub3_movie ul li:first-child .movieFst{ width: 100%;overflow: hidden; }
+.sub3_movie ul li:first-child dl{width:80%; margin:3% 10% 0 10%;  text-align: center;  }
+.sub3_movie ul li:first-child dl dt{font-size: 2rem; line-height: 3.5rem; color: #000; font-weight: 700; text-shadow: rgba(0,0,0,.5);}
+
+.sub3_movie ul li:first-child dl dd{font-size: 1.2rem; line-height: 2.5rem; color: rgb(22, 22, 22); font-weight: 700; border-top:2px solid red; width:50%; margin:0 25%;}
+
+.sub3_movie ul li img { overflow: hidden; transition:transform .3s;}
+.sub3_movie ul li:hover img{transform:scale(1.05);}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   .sub3_movie ul li dl dt{font-size: 1.2rem;}
+   .sub3_movie ul li dl dd{font-size: 0.8rem;}
+   .sub3_movie ul li:first-child dl dt{font-size: 1.5rem; }
+   .sub3_movie ul li:first-child dl dd{font-size: 1rem; width:60%; margin:0 20%;}
+   
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   .sub3_movie ul li{ width:44.5%; }
+   .sub3_movie ul li:nth-of-type(3){margin-right:0;}
+   .sub3_movie ul li:nth-of-type(4) {display: none;}
+   }
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   .sub3_movie ul li dl dt{font-size: 1rem;}
+   .sub3_movie ul li dl dd{font-size: 0.8rem;}
+   .sub3_movie ul li:first-child dl dt{font-size: 1.2rem; line-height: 2rem;}
+   .sub3_movie ul li:first-child dl dd{font-size: 1rem; width:80%; margin:0 10%;line-height: 1.5rem;}
+   
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
+
+
+
